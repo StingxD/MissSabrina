@@ -6,9 +6,9 @@ from telegram.error import BadRequest
 from telegram.ext import run_async
 from telegram.utils.helpers import escape_markdown, mention_html
 
-from skylee import dispatcher, updater
-from skylee.modules.disable import DisableAbleCommandHandler
-from skylee.modules.helper_funcs.alternate import typing_action
+from import dispatcher, updater
+from modules.disable import DisableAbleCommandHandler
+from modules.helper_funcs.alternate import typing_action
 
 GITHUB = 'https://github.com'
 DEVICES_DATA = 'https://raw.githubusercontent.com/androidtrackers/certified-android-devices/master/by_device.json'
