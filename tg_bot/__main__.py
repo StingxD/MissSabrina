@@ -27,15 +27,15 @@ def escape_html(word):
     return escape(word)
 
 PM_START_TEXT = """
-Hello *{}* My name is *SpiderMan*!
+Hello *{}* My name is *JokerMan*!
 
 I'm Here To Help You Manage Your Groups . Hit /help To Find Out More About How To Use My Full Potential Use!
 
-Made With Love And Maintained By [This Awesome Person.](t.me/Spyder_xD) 
+Made With Love And Maintained By [This Awesome Person.](t.me/Sting_is_here) 
 
-Special Thanks To [This Noob .](t.me/Unknown_Hacker_X) 
+Special Thanks To [This Noob .](t.me/pureindialover) 
 
-Want To Add Me Into Your Chats? [Click Here!](https://t.me/spiderman_probot?startgroup=true)
+Want To Add Me Into Your Chats? [Click Here!](https://t.me/jokerman_probot?startgroup=true)
 """
 
 
