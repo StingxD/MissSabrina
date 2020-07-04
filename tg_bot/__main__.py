@@ -33,7 +33,7 @@ I'm Here To Help You Manage Your Groups . Hit /help To Find Out More About How T
 
 Made With Love And Maintained By [This Awesome Person.](t.me/StingxD) 
 
-Special Thanks To [This Noob .](t.me/pureindialover) 
+Special Thanks To [This No Ego Person .](t.me/Rohan_xD) 
 
 Want To Add Me Into Your Chats? [Click Here!](https://t.me/jokerman_probot?startgroup=true)
 """
@@ -165,8 +165,8 @@ def send_start(bot, update):
     text = PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID, parse_mode=ParseMode.MARKDOWN)
                 
     keyboard = [[
-        InlineKeyboardButton(text=tld(chat.id, '🥳Add To Group'),
-                             url="https://t.me/jokerman_probot?startgroup=true"), InlineKeyboardButton(text="❓ Help", callback_data="help_back")
+        InlineKeyboardButton(text=tld(chat.id, '🥳Updates Channel'),
+                             url="https://t.me/JokerUpdates"), InlineKeyboardButton(text="❓ Help", callback_data="help_back")
         ]]
     keyboard += [[
         InlineKeyboardButton(text=tld(chat.id, '👥 Support Group'), url="https://t.me/jokersupport")
