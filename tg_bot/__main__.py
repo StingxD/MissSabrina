@@ -150,7 +150,7 @@ def start(bot: Bot, update: Update, args: List[str]):
         else:
             send_start(bot, update)
     else:
-        update.effective_message.reply_text("Yo, Sar I Am Here 😎")
+        update.effective_message.reply_text("Yo, Bol Bc Kyu Yaad Kiya? 😎")
 
 def send_start(bot, update):
     #Try to remove old message
