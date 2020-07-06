@@ -12,15 +12,15 @@ from telegram import ParseMode, Chat, User, MessageEntity, InlineKeyboardMarkup,
 from telegram.ext import run_async, CommandHandler, CallbackQueryHandler
 from telegram.utils.helpers import mention_html, mention_markdown
 
-from skylee import dispatcher, OWNER_ID, SUDO_USERS, WHITELIST_USERS, MESSAGE_DUMP, LOGGER
-from skylee.modules.helper_funcs.chat_status import is_user_admin
-from skylee.modules.helper_funcs.extraction import extract_user, extract_unt_fedban, extract_user_fban
-from skylee.modules.helper_funcs.string_handling import markdown_parser
-from skylee.modules.disable import DisableAbleCommandHandler
+from sabrina import dispatcher, OWNER_ID, SUDO_USERS, WHITELIST_USERS, MESSAGE_DUMP, LOGGER
+from sabrina.modules.helper_funcs.chat_status import is_user_admin
+from sabrina.modules.helper_funcs.extraction import extract_user, extract_unt_fedban, extract_user_fban
+from sabrina.modules.helper_funcs.string_handling import markdown_parser
+from sabrina.modules.disable import DisableAbleCommandHandler
 
-import skylee.modules.sql.feds_sql as sql
+import sabrina.modules.sql.feds_sql as sql
 
-from skylee.modules.helper_funcs.alternate import send_message, typing_action, send_action
+from sabrina.modules.helper_funcs.alternate import send_message, typing_action, send_action
 # Hello bot owner, I spended for feds many hours of my life, Please don't remove this if you still respect MrYacha and peaktogoo and AyraHikari too
 # Federation by MrYacha 2018-2019
 # Federation rework by Mizukito Akito 2019
