@@ -31,16 +31,8 @@ Hello *{}* My name is *JokerMan*!
 
 I'm Here To Help You Manage Your Groups . Hit /help To Find Out More About How To Use My Full Potential Use!
 
-Made With Love And Maintained By [This Awesome Person.](t.me/StingxD) 
-
-Special Thanks To [This No Ego Person .](t.me/Rohan_xD) 
-
 Want To Add Me Into Your Chats? [Click Here!](https://t.me/jokerman_probot?startgroup=true)
 """
-
-
-
-
 
 HELP_STRINGS = """
 
@@ -58,7 +50,11 @@ Hello! my name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll of the following commands  / or ! can  be used...\n")
 
-DONATE_STRING = """Hey you can Donate to [Sting xD](t.me/StingxD) for better server """
+JOKER_IMG = "https://telegra.ph/file/e7e0a3706e04f2f77be14.jpg"
+
+DONATE_STRING = """Hey, glad to hear you want to donate!
+You can donate to the original writer of the Base code, Paul
+There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
 
 
 IMPORTED = {}
